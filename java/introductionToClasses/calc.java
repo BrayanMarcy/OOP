@@ -1,6 +1,6 @@
-public class Main {
+public class Calc {
   float x, y, r;
-  public Main(float a, float b, float c) {
+  public Calc(float a, float b, float c) {
     x = a;
     y = b;
     r = c;
@@ -38,7 +38,7 @@ public class Main {
     System.out.println("El resultado es: " + r);
   }
   public static void main(String[] args) {
-    Main obj1 = new Main(0,0,0);
+    Calc obj1 = new Calc(0,0,0);
     obj1.sumar(26, 5);
     obj1.imprimirResultado();
     obj1.restar(26, 5);
