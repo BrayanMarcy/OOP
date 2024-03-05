@@ -14,6 +14,16 @@ public class Bank{
     System.out.println(bankOfGods.accountOne.getBalance());
     bankOfGods.accountOne.setConsign(5000);
     System.out.println(bankOfGods.accountOne.getBalance());
+    bankOfGods.accountOne.setConsign(5000);
+    System.out.println(bankOfGods.accountOne.getBalance());
+    bankOfGods.accountOne.setRetire(5000);
+    System.out.println(bankOfGods.accountOne.getBalance());
+    bankOfGods.accountOne.setConsign(5000);
+    System.out.println(bankOfGods.accountOne.getBalance());
+    bankOfGods.accountOne.setRetire(5000);
+    System.out.println(bankOfGods.accountOne.getBalance());
+    bankOfGods.accountOne.setRetire(5000);
+    System.out.println(bankOfGods.accountOne.getBalance());
     System.out.println(bankOfGods.accountOne.getMonthlyInterest());
 
   }
