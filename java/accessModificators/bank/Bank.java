@@ -1,3 +1,5 @@
+package bank;
+
 public class Bank{
   private CheckingAccount accountOne;
   private CheckingAccount accountTwo;
@@ -10,7 +12,7 @@ public class Bank{
   public static void main(String[] args){
     Bank bankOfGods = new Bank();
     System.out.println(bankOfGods.accountOne.getBalance());
-    bankOfGods.accountOne.setBalance(5000);
+    bankOfGods.accountOne.setConsign(5000);
     System.out.println(bankOfGods.accountOne.getBalance());
     System.out.println(bankOfGods.accountOne.getMonthlyInterest());
 
