@@ -18,11 +18,11 @@ public class CheckingAccount{
   }
   
   public void setConsign(int newBalance){
-    this.balance = newBalance;
+    this.balance += newBalance;
   }
 
     public void setRetire(int newBalance){
-    this.balance = newBalance;
+    this.balance -= newBalance;
   }
 
   public double getMonthlyInterest(){
