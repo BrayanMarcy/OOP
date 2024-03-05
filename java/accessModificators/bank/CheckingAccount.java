@@ -17,7 +17,11 @@ public class CheckingAccount{
     return this.balance;
   }
   
-  public void setBalance(int newBalance){
+  public void setConsign(int newBalance){
+    this.balance = newBalance;
+  }
+
+    public void setRetire(int newBalance){
     this.balance = newBalance;
   }
 
